@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "My Web developer skills Api",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js"
   },
   "repository": {
@@ -19,8 +19,11 @@
   "homepage": "https://github.com/DevmianS/web-dev-skills-api#readme",
   "dependencies": {
     "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
     "express": "^4.18.1",
-    "mongoose": "^6.3.3",
+    "mongoose": "^6.3.3"
+  },
+  "devDependencies": {
     "nodemon": "^2.0.16"
   }
 }
