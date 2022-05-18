@@ -5,7 +5,9 @@ import bodyParser from 'body-parser';
 import skillsRoutes from './routes/skills.js';
 import { MongoClient, ServerApiVersion } from 'mongodb';
 
-const uri = process.env.DB_CONNECTION;
+// const uri = process.env.DB_CONNECTION;
+const uri =
+  'mongodb://devmian:devmianmong@cluster0.vwudi.mongodb.net:27017/mydb?ssl=true&replicaSet=my-atlas-cluster-shard-0&authSource=admin&retryWrites=true&w=majority';
 const client = new MongoClient(uri, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
