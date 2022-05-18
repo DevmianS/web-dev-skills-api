@@ -5,23 +5,18 @@ import bodyParser from 'body-parser';
 import skillsRoutes from './routes/skills.js';
 import { MongoClient, ServerApiVersion } from 'mongodb';
 
-const clientConnect = () => {
-  const uri = process.env.DB_CONNECTION;
-  const client = new MongoClient(uri, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-    serverApi: ServerApiVersion.v1,
-  });
-  client.connect(err => {
-    console.log('connected to db');
-    const collection = client.db('test').collection('devices');
-    // perform actions on the collection object
-    client.close();
-  });
-};
-setTimeout(() => {
-  clientConnect();
-}, 1000);
+const client = new MongoClient(process.env.DB_CONNECTION, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+  serverApi: ServerApiVersion.v1,
+});
+client.connect(err => {
+  console.log('connected to db');
+  const collection = client.db('test').collection('devices');
+  // perform actions on the collection object
+  client.close();
+});
+
 const app = express();
 // import db from './db.json';
 // const db = require('./db.json');
