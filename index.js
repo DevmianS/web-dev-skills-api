@@ -12,18 +12,18 @@ const client = new MongoClient(uri, {
   serverApi: ServerApiVersion.v1,
 });
 
-async function run() {
-  try {
-    await client.connect(err => {
-      console.log('connected to db');
-      const collection = client.db('test').collection('devices');
-      // perform actions on the collection object
-    });
-  } finally {
-    await client.close();
-  }
-}
-run();
+// async function run() {
+//   try {
+client.connect(err => {
+  console.log('connected to db');
+  const collection = client.db('test').collection('devices');
+  // perform actions on the collection object
+});
+// } finally {
+client.close();
+// }
+// }
+// run();
 
 const app = express();
 // import db from './db.json';
