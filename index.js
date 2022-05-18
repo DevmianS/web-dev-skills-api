@@ -19,7 +19,9 @@ const clientConnect = () => {
     client.close();
   });
 };
-clientConnect();
+setTimeout(() => {
+  clientConnect();
+}, 1000);
 const app = express();
 // import db from './db.json';
 // const db = require('./db.json');
