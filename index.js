@@ -30,8 +30,6 @@ const app = express();
 
 const PORT = 8080;
 
-// const db = JSON.stringify(db.json);
-
 app.use(cors());
 app.use(bodyParser.json());
 app.use('/all-skills', skillsRoutes);
