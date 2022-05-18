@@ -1,11 +1,13 @@
 const express = require('express');
 const app = express();
+const cors = require('cors');
 const db = require('./db.json');
 
 const PORT = 8080;
 
 // const db = JSON.stringify(db.json);
 // app.use(express.json());
+app.use(cors());
 
 //ROUTES
 app.get('/v1/all-skills', (req, res) => {
