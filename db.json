@@ -1,0 +1,18 @@
+{
+  "all-skills": [
+    {
+      "id": 0,
+      "icon": "icon",
+      "name": "DUMMY",
+      "web": "google.com",
+      "stack": "frontend"
+    },
+    {
+      "id": 1,
+      "icon": "icon",
+      "name": "HTML",
+      "web": "google.com",
+      "stack": "frontend"
+    }
+  ]
+}
