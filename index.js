@@ -27,7 +27,6 @@ run();
 
 const app = express();
 // import db from './db.json';
-// const db = require('./db.json');
 
 const PORT = 8080;
 
