@@ -33,8 +33,6 @@ const skills = [
   },
 ];
 
-router.get('/', (req, res) => {
-  res.send(skills);
-});
+router.get('/', (req, res) => res.send(skills));
 
 module.exports = router;
