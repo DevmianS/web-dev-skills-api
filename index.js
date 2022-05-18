@@ -4,7 +4,7 @@
 // import bodyParser from 'body-parser';
 // import skillsRoutes from './routes/skills.js';
 var express = require('express');
-const PORT = 8080;
+const PORT = process.env.PORT;
 var cors = require('cors');
 var bodyParser = require('body-parser');
 var skillsRoutes = require('./routes/skills.js');
@@ -53,4 +53,6 @@ app.get('/all-skills', skillsRoutes);
 //   res.send('Add "/all-skills" to the url');
 // });
 
-app.listen(PORT, () => console.log(`it's alive on http://localhost:${PORT}`));
+app.listen(PORT || 5000, () =>
+  console.log(`it's alive on http://localhost:${PORT}`)
+);
