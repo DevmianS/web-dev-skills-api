@@ -10,7 +10,7 @@ const PORT = 8080;
 app.use(cors());
 
 //ROUTES
-app.get('/v1/all-skills', (req, res) => {
+app.get('/all-skills', (req, res) => {
   res.send(db);
 });
 app.get('/', (req, res) => {
