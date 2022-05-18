@@ -44,7 +44,8 @@ const app = express();
 
 app.use(cors());
 app.use(bodyParser.json());
-app.use('/all-skills', skillsRoutes);
+
+app.get('/all-skills', skillsRoutes);
 
 //ROUTES
 
