@@ -12,7 +12,7 @@ const client = new MongoClient(process.env.DB_CONNECTION, {
 });
 client.connect(err => {
   console.log('connected to db');
-  // const collection = client.db('test').collection('devices');
+  const collection = client.db('test').collection('devices');
   // perform actions on the collection object
   client.close();
 });
