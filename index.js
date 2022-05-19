@@ -45,12 +45,12 @@ const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 
-app.use('/all-skills', skillsRoutes);
+app.use('/v1/skills', skillsRoutes);
 
 //ROUTES
 
-app.get('/v1/', (req, res) => {
-  res.send('Add "/all-skills" to the url');
+app.get('/', (req, res) => {
+  res.send('Add "/v1/skills" to the url');
 });
 
 app.listen(PORT || 5000, () =>
