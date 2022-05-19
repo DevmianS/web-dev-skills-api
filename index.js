@@ -49,9 +49,9 @@ app.use('/all-skills', skillsRoutes);
 
 //ROUTES
 
-// app.get('/', (req, res) => {
-//   res.send('Add "/all-skills" to the url');
-// });
+app.get('/v1/', (req, res) => {
+  res.send('Add "/all-skills" to the url');
+});
 
 app.listen(PORT || 5000, () =>
   console.log(`it's alive on http://localhost:${PORT}`)
