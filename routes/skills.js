@@ -455,7 +455,7 @@ const skills = [
     stacks: ['frontend', 'backend'],
     description:
       'TypeScript is a programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript and adds optional static typing to the language. It is designed for the development of large applications and transpiles to JavaScript.',
-    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2F49.svg?alt=media&token=bbe94952-ff8c-4830-9676-23a666a7afdc',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2F48.svg?alt=media&token=e41d5fe4-6b23-46da-a911-11cad529eac6',
     web: ['https://www.typescriptlang.org/'],
   },
   {
