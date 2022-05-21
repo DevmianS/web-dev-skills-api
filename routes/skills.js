@@ -446,7 +446,7 @@ const skills = [
     stacks: ['frontend'],
     description:
       'Jasmine is an open-source testing framework for JavaScript. It aims to run on any JavaScript-enabled platform, to not intrude on the application nor the IDE, and to have easy-to-read syntax.',
-    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2F47.svg?alt=media&token=d0f417b9-df3c-4c97-92e7-8a1b5e12e4f0',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2F48.svg?alt=media&token=e41d5fe4-6b23-46da-a911-11cad529eac6',
     web: ['https://jasmine.github.io/'],
   },
   {
@@ -455,7 +455,7 @@ const skills = [
     stacks: ['frontend', 'backend'],
     description:
       'TypeScript is a programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript and adds optional static typing to the language. It is designed for the development of large applications and transpiles to JavaScript.',
-    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2F48.svg?alt=media&token=e41d5fe4-6b23-46da-a911-11cad529eac6',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2F49.svg?alt=media&token=bbe94952-ff8c-4830-9676-23a666a7afdc',
     web: ['https://www.typescriptlang.org/'],
   },
   {
