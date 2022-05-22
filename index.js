@@ -1,5 +1,5 @@
 var express = require('express');
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 5000;
 var cors = require('cors');
 var bodyParser = require('body-parser');
 var skillsRoutes = require('./routes/skills.js');
@@ -17,6 +17,4 @@ app.get('/', (req, res) => {
   res.send('Add "/v1/skills" to the url');
 });
 
-app.listen(PORT || 5000, () =>
-  console.log(`it's alive on http://localhost:${PORT}`)
-);
+app.listen(PORT, () => console.log(`it's alive on http://localhost:${PORT}`));

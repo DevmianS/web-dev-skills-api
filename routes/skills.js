@@ -638,6 +638,213 @@ const skills = [
     icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2F69.svg?alt=media&token=04517525-3121-4118-a49e-da45da55da39',
     web: ['https://proton-native.js.org/#/'],
   },
+  {
+    id: 70,
+    names: ['WebAssembly', 'Wasm'],
+    stacks: ['frontend', 'backend'],
+    description:
+      'WebAssembly (abbreviated Wasm) is a binary instruction format for a stack-based virtual machine. Wasm is designed as a portable compilation target for programming languages, enabling deployment on the web for client and server applications.',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Fwebassembly.svg?alt=media&token=cfd9ffc3-ecc6-4633-915c-2698691b2046',
+    web: ['https://webassembly.org/'],
+  },
+  {
+    id: 71,
+    names: ['jQuery'],
+    stacks: ['frontend'],
+    description:
+      'jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Fjquery.svg?alt=media&token=f1ba724b-9778-4426-8760-00599aa33a95',
+    web: ['https://jquery.com/'],
+  },
+  {
+    id: 72,
+    names: ['Rust'],
+    stacks: ['backend'],
+    description:
+      'Rust is a multi-paradigm, general-purpose programming language designed for performance and safety, especially safe concurrency.',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Frust.svg?alt=media&token=40cb59d8-164b-4bda-a048-dc6260353c20',
+    web: ['https://www.rust-lang.org/'],
+  },
+  {
+    id: 73,
+    names: ['Go'],
+    stacks: ['backend'],
+    description:
+      'Go is a statically typed, compiled programming language designed at Google by Robert Griesemer, Rob Pike, and Ken Thompson. It is syntactically similar to C, but with memory safety, garbage collection, structural typing, and CSP-style concurrency.',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Fgo.svg?alt=media&token=da52d605-fedd-4a3c-b087-e8c03a005122',
+    web: ['https://go.dev/'],
+  },
+  {
+    id: 74,
+    names: ['Java'],
+    stacks: ['backend'],
+    description:
+      'Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Fjava.svg?alt=media&token=f8b7fc5c-e931-4b4e-b5b8-865e52c5b0e6',
+    web: ['https://www.java.com/'],
+  },
+  {
+    id: 75,
+    names: ['C#'],
+    stacks: ['backend'],
+    description:
+      'C# is a general-purpose, multi-paradigm programming language. C# encompasses static typing, strong typing, lexically scoped, imperative, declarative, functional, generic, object-oriented, and component-oriented programming disciplines.',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Fcsharp.svg?alt=media&token=85a0ee2c-7b50-4850-8565-8aedaaa6cebf',
+    web: ['https://docs.microsoft.com/en-us/dotnet/csharp/'],
+  },
+  {
+    id: 76,
+    names: ['PHP'],
+    stacks: ['backend'],
+    description:
+      'PHP is a general-purpose scripting language geared toward web development.',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Fphp.svg?alt=media&token=2f562912-08d2-4891-bee3-d662eca23de0',
+    web: ['https://www.php.net/'],
+  },
+  {
+    id: 77,
+    names: ['Python'],
+    stacks: ['backend'],
+    description:
+      'Python is a high-level, interpreted, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Fpython.svg?alt=media&token=227bfe3e-0567-4229-b5c0-45e5f5fad776',
+    web: ['https://www.python.org/'],
+  },
+  {
+    id: 78,
+    names: ['Ruby'],
+    stacks: ['backend'],
+    description:
+      'Ruby is an interpreted, high-level, general-purpose programming language which supports multiple programming paradigms.',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Fruby.svg?alt=media&token=38576666-5f77-4767-9eca-1e307df25b13',
+    web: ['https://www.ruby-lang.org/en/'],
+  },
+  {
+    id: 79,
+    names: ['PostgreSQL'],
+    stacks: ['backend'],
+    description:
+      'PostgreSQL, also known as Postgres, is a free and open-source relational database management system emphasizing extensibility and SQL compliance.',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Fpostgresql.svg?alt=media&token=9f537051-49e8-4365-9d56-1017cf076996',
+    web: ['https://www.postgresql.org/'],
+  },
+  {
+    id: 80,
+    names: ['MySQL'],
+    stacks: ['backend'],
+    description:
+      'MySQL is an open-source relational database management system.',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Fmysql.svg?alt=media&token=01976150-3185-4d46-9f25-34bd83af2b99',
+    web: ['https://www.mysql.com/'],
+  },
+  {
+    id: 81,
+    names: ['MariaDB'],
+    stacks: ['backend'],
+    description:
+      'MariaDB is a community-developed, commercially supported fork of the MySQL relational database management system, intended to remain free and open-source software under the GNU General Public License.',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Fmariadb.svg?alt=media&token=51fdce76-ec03-4f5a-b8a3-23f2cf9bdf7f',
+    web: ['https://mariadb.org/'],
+  },
+  {
+    id: 82,
+    names: ['Microsoft SQL Server', 'MS SQL'],
+    stacks: ['backend'],
+    description:
+      'Microsoft SQL Server is a relational database management system developed by Microsoft. As a database server, it is a software product with the primary function of storing and retrieving data as requested by other software applications—which may run either on the same computer or on another computer across a network.',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Fmssql.svg?alt=media&token=2a60115e-f767-4b79-beec-cf0fb698bfc4',
+    web: ['https://www.microsoft.com/en-ca/sql-server/'],
+  },
+  {
+    id: 83,
+    names: ['Oracle Database', 'Oracle DBMS'],
+    stacks: ['backend'],
+    description:
+      'Oracle Database is a multi-model database management system produced and marketed by Oracle Corporation. It is a database commonly used for running online transaction processing, data warehousing and mixed database workloads.',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Foracle.svg?alt=media&token=c38a3808-d8ff-4dfa-9955-0e96618c2f5a',
+    web: ['https://www.oracle.com/database/'],
+  },
+  {
+    id: 84,
+    names: ['MongoDB'],
+    stacks: ['backend'],
+    description:
+      'MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas. MongoDB is developed by MongoDB Inc. and licensed under the Server Side Public License.',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Fmongodb.svg?alt=media&token=cbf410fa-8899-43a6-9b8f-2d5ad08883cc',
+    web: ['https://www.mongodb.com/'],
+  },
+  {
+    id: 85,
+    names: ['Apache Cassandra'],
+    stacks: ['backend'],
+    description:
+      'Cassandra is a free and open-source, distributed, wide-column store, NoSQL database management system designed to handle large amounts of data across many commodity servers, providing high availability with no single point of failure.',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Fcassandra.svg?alt=media&token=f54f9f56-a39a-49cd-9144-5a15b2417623',
+    web: ['https://cassandra.apache.org/'],
+  },
+  {
+    id: 86,
+    names: ['InfluxDB'],
+    stacks: ['backend'],
+    description:
+      'InfluxDB is an open-source time series database developed by the company InfluxData. It is written in the Go programming language for storage and retrieval of time series data in fields such as operations monitoring, application metrics, Internet of Things sensor data, and real-time analytics.',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2FInfluxdb.svg?alt=media&token=b672f5a9-feb8-4406-a463-01462b4db911',
+    web: ['https://www.influxdata.com/'],
+  },
+  {
+    id: 87,
+    names: ['Firebase'],
+    stacks: ['backend'],
+    description:
+      'Firebase is a platform developed by Google for creating mobile and web applications.',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Ffirebase.svg?alt=media&token=6e490cdf-7fa4-421e-bdfc-f6403cfe10f2',
+    web: ['https://firebase.google.com/'],
+  },
+  {
+    id: 88,
+    names: ['Docker'],
+    stacks: ['backend'],
+    description:
+      'Docker is a set of platform as a service products that use OS-level virtualization to deliver software in packages called containers. The service has both free and premium tiers. The software that hosts the containers is called Docker Engine.',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Fdocker.svg?alt=media&token=0259994d-3de5-450c-b400-bacdf92a8a5c',
+    web: ['https://docs.docker.com/'],
+  },
+  {
+    id: 89,
+    names: ['Nginx'],
+    stacks: ['backend'],
+    description:
+      'Nginx is a web server that can also be used as a reverse proxy, load balancer, mail proxy and HTTP cache.',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Fnginx.svg?alt=media&token=5b718204-caf2-4e4e-a56f-40c4e5fa59bb',
+    web: ['https://nginx.org/'],
+  },
+  {
+    id: 90,
+    names: ['Apache HTTP Server'],
+    stacks: ['backend'],
+    description:
+      'The Apache HTTP Server is a free and open-source cross-platform web server software, released under the terms of Apache License 2.0. Apache is developed and maintained by an open community of developers under the auspices of the Apache Software Foundation.',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Fapache.svg?alt=media&token=4b7aeb97-71fe-4019-8aec-3b7573e340f0',
+    web: ['https://httpd.apache.org/'],
+  },
+  {
+    id: 91,
+    names: ['Caddy'],
+    stacks: ['backend'],
+    description:
+      'The Caddy web server is an extensible, cross-platform, open-source web server written in Go. The name "Caddy" refers both to a helper for tedious tasks, and a way to organize multiple parts into a simplified system.',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Fcaddy.svg?alt=media&token=e5bf44b3-2fc2-434b-8270-4af7e82ee026',
+    web: ['https://caddyserver.com/'],
+  },
+  {
+    id: 92,
+    names: ['Internet Information Services'],
+    stacks: ['backend'],
+    description:
+      'Internet Information Services is an extensible web server software created by Microsoft for use with the Windows NT family. IIS supports HTTP, HTTP/2, HTTPS, FTP, FTPS, SMTP and NNTP. ',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Fmsiis.png?alt=media&token=169b8c4e-8d0e-499f-b176-9da7c6bf7e94',
+    web: ['https://www.iis.net/'],
+  },
 ];
 
 router.get('/', (req, res) => res.send(skills));
