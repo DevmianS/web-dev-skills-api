@@ -734,7 +734,7 @@ const skills = [
     stacks: ['backend'],
     description:
       'MySQL is an open-source relational database management system.',
-    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Fmysql.svg?alt=media&token=01976150-3185-4d46-9f25-34bd83af2b99',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Fmysql.svg?alt=media&token=dcfeffc7-9d29-4b43-add1-26ab79ffd9a4',
     web: ['https://www.mysql.com/'],
   },
   {
@@ -844,6 +844,195 @@ const skills = [
       'Internet Information Services is an extensible web server software created by Microsoft for use with the Windows NT family. IIS supports HTTP, HTTP/2, HTTPS, FTP, FTPS, SMTP and NNTP. ',
     icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Fmsiis.png?alt=media&token=169b8c4e-8d0e-499f-b176-9da7c6bf7e94',
     web: ['https://www.iis.net/'],
+  },
+  {
+    id: 93,
+    names: ['WordPress'],
+    stacks: ['frontend', 'backend'],
+    description:
+      'WordPress is a free and open-source content management system written in PHP and paired with a MySQL or MariaDB database. Features include a plugin architecture and a template system, referred to within WordPress as Themes.',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Fwordpress.svg?alt=media&token=781a6c6b-1e65-4147-a617-d1bb341ca10c',
+    web: ['https://wordpress.org/'],
+  },
+  {
+    id: 94,
+    names: ['Joomla'],
+    stacks: ['frontend', 'backend'],
+    description:
+      'Joomla, also spelled Joomla! and sometimes abbreviated as J!, is a free and open-source content management system for publishing web content on websites. Web content applications include discussion forums, photo galleries, e-Commerce and user communities and numerous other web-based applications.',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Fjoomla.svg?alt=media&token=9e0a2ea6-7ffb-4d2e-a1bb-a71cf57dc76e',
+    web: ['https://www.joomla.org/'],
+  },
+  {
+    id: 95,
+    names: ['PrestaShop'],
+    stacks: ['frontend', 'backend'],
+    description:
+      'PrestaShop is a freemium, open source e-commerce platform. The software is published under the Open Software License. It is written in the PHP programming language with support for the MySQL database management system. It has a software dependency on the Symfony PHP framework.',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Fprestashop.svg?alt=media&token=2087886e-d214-4915-b7a7-64ba2fe15be9',
+    web: ['https://www.prestashop.com/en'],
+  },
+  {
+    id: 96,
+    names: ['Drupal'],
+    stacks: ['frontend', 'backend'],
+    description:
+      'Drupal is a free and open-source web content management system written in PHP and distributed under the GNU General Public License.',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Fdrupal.svg?alt=media&token=bf772631-609f-4b22-b60f-f481d89e0a71',
+    web: ['https://www.drupal.org/'],
+  },
+  {
+    id: 97,
+    names: ['Stylus'],
+    stacks: ['frontend'],
+    description:
+      'Stylus is a dynamic stylesheet preprocessor language that is compiled into Cascading Style Sheets (CSS).',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Fstylus.svg?alt=media&token=74039d61-2d6a-46b8-9f7c-8e1b74b63441',
+    web: ['https://stylus-lang.com/'],
+  },
+  {
+    id: 98,
+    names: ['Foundation'],
+    stacks: ['frontend'],
+    description:
+      'Foundation is a free and open-source responsive front-end framework, providing a responsive grid and HTML and CSS UI components, templates, and code snippets, including typography, forms, buttons, navigation and other interface elements, as well as optional functionality provided by JavaScript extensions.',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Ffoundation.svg?alt=media&token=054e2553-ee34-442f-b866-6b76632b93a0',
+    web: ['https://get.foundation/'],
+  },
+  {
+    id: 99,
+    names: ['Ember.js'],
+    stacks: ['frontend'],
+    description:
+      'Ember.js is an open-source JavaScript web framework, utilizing a component-service pattern. It allows developers to create scalable single-page web applications by incorporating common idioms, best practices, and patterns from other single-page-app ecosystem patterns into the framework.',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Femberjs.svg?alt=media&token=0ca8dad3-4728-448f-9101-3706df37b77e',
+    web: ['https://emberjs.com/'],
+  },
+  {
+    id: 100,
+    names: ['Karma'],
+    stacks: ['frontend'],
+    description:
+      "The main goal for Karma is to bring a productive testing environment to developers. The environment being one where they don't have to set up loads of configurations, but rather a place where developers can just write the code and get instant feedback from their tests.",
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Fkarma.svg?alt=media&token=effc9ae4-0c0f-469e-b403-e1ffbf5cdb26',
+    web: ['https://karma-runner.github.io/latest/index.html'],
+  },
+  {
+    id: 101,
+    names: ['Gulp.js'],
+    stacks: ['frontend'],
+    description:
+      'Gulp is an open-source JavaScript toolkit created by Eric Schoffstall used as a streaming build system in front-end web development.',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Fgulp.svg?alt=media&token=580137a4-7a9d-4767-b91f-587cef9e3116',
+    web: ['https://gulpjs.com/'],
+  },
+  {
+    id: 102,
+    names: ['Grunt'],
+    stacks: ['frontend'],
+    description:
+      'Grunt is a JavaScript task runner, a tool used to automatically perform frequent tasks such as minification, compilation, unit testing, and linting. It uses a command-line interface to run custom tasks defined in a file.',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Fgrunt.svg?alt=media&token=242579ed-a248-4c27-b7f3-709aa206de21',
+    web: ['https://gulpjs.com/'],
+  },
+  {
+    id: 101,
+    names: ['Grunt'],
+    stacks: ['frontend'],
+    description:
+      'Grunt is a JavaScript task runner, a tool used to automatically perform frequent tasks such as minification, compilation, unit testing, and linting. It uses a command-line interface to run custom tasks defined in a file.',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Fgrunt.svg?alt=media&token=242579ed-a248-4c27-b7f3-709aa206de21',
+    web: ['https://gulpjs.com/'],
+  },
+  {
+    id: 102,
+    names: ['Symfony'],
+    stacks: ['backend'],
+    description:
+      'Symfony is a PHP web application framework and a set of reusable PHP components/libraries.',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Fsymfony2.svg?alt=media&token=150dfdef-e8c7-4dff-bb1b-104bca17deb1',
+    web: ['https://symfony.com/'],
+  },
+  {
+    id: 103,
+    names: ['Laravel'],
+    stacks: ['backend'],
+    description:
+      'Laravel is a free, open-source PHP web framework, created by Taylor Otwell and intended for the development of web applications following the model–view–controller architectural pattern and based on Symfony.',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Flaravel.svg?alt=media&token=22dbc533-7921-4d3b-8185-ca96293a1bdd',
+    web: ['https://laravel.com/'],
+  },
+  {
+    id: 104,
+    names: ['Spring'],
+    stacks: ['backend'],
+    description:
+      "The Spring Framework is an application framework and inversion of control container for the Java platform. The framework's core features can be used by any Java application, but there are extensions for building web applications on top of the Java EE platform.",
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Fspring.svg?alt=media&token=67177657-3b6f-4343-94a6-35d8c5928dfa',
+    web: ['https://spring.io/'],
+  },
+  {
+    id: 105,
+    names: ['Grails'],
+    stacks: ['backend'],
+    description:
+      'Grails is an open source web application framework that uses the Apache Groovy programming language. It is intended to be a high-productivity framework by following the "coding by convention" paradigm, providing a stand-alone development environment and hiding much of the configuration detail from the developer.',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Fgrails.svg?alt=media&token=b8574c48-f53a-4c70-8ab6-41b76fbc18df',
+    web: ['https://grails.org/'],
+  },
+  {
+    id: 106,
+    names: ['.NET Framework'],
+    stacks: ['backend'],
+    description:
+      'The .NET Framework is a proprietary software framework developed by Microsoft that runs primarily on Microsoft Windows. It was the predominant implementation of the Common Language Infrastructure until being superseded by the cross-platform .NET project.',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Fnet.svg?alt=media&token=d3ed1089-f12a-495f-af3e-36ad4142436d',
+    web: ['https://dotnet.microsoft.com/en-us/'],
+  },
+  {
+    id: 107,
+    names: ['Haskell'],
+    stacks: ['backend'],
+    description:
+      'Haskell is a general-purpose, statically-typed, purely functional programming language with type inference and lazy evaluation. Designed for teaching, research and industrial applications, Haskell has pioneered a number of programming language features such as type classes, which enable type-safe operator overloading.',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Fhaskell.svg?alt=media&token=3cf863b9-54c3-4db9-9e89-33f2719e5db5',
+    web: ['https://www.haskell.org/'],
+  },
+  {
+    id: 108,
+    names: ['Django'],
+    stacks: ['backend'],
+    description:
+      'Django is a Python-based web framework, free and open-source, that follows the model–template–views architectural pattern.',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Fdjango.svg?alt=media&token=45fd777e-dfbb-43f8-bf58-5d77c5c9e84f',
+    web: ['https://www.djangoproject.com/'],
+  },
+  {
+    id: 109,
+    names: ['Ruby on Rails'],
+    stacks: ['backend'],
+    description:
+      'Ruby on Rails, or Rails, is a server-side web application framework written in Ruby under the MIT License. Rails is a model–view–controller framework, providing default structures for a database, a web service, and web pages.',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Frubyonrails.svg?alt=media&token=76ba8fac-6dcc-45c7-9a43-805def107b82',
+    web: ['https://www.djangoproject.com/'],
+  },
+  {
+    id: 110,
+    names: ['Express.js'],
+    stacks: ['backend'],
+    description:
+      'Express.js, or simply Express, is a back end web application framework for Node.js, released as free and open-source software under the MIT License. It is designed for building web applications and APIs. It has been called the de facto standard server framework for Node.js.',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Fexpressjs.svg?alt=media&token=2d4aa396-a21f-4536-9951-bf80fed525e7',
+    web: ['https://expressjs.com/'],
+  },
+  {
+    id: 111,
+    names: ['Socket.IO'],
+    stacks: ['backend'],
+    description:
+      'Socket.IO is an event-driven JavaScript library for real-time web applications. It enables real-time, bi-directional communication between web clients and servers. It has two parts: a client-side library that runs in the browser, and a server-side library for Node.js. Both components have a nearly identical API.',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Fsocketio.svg?alt=media&token=6bf9f86d-e298-4763-84b8-06987f12ee4e',
+    web: ['https://socket.io/'],
   },
 ];
 
