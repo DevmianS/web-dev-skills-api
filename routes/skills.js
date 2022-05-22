@@ -167,7 +167,7 @@ const skills = [
     stacks: ['frontend', 'backend'],
     description:
       'Webpack is a free and open-source module bundler for JavaScript. It is made primarily for JavaScript, but it can transform front-end assets such as HTML, CSS, and images if the corresponding loaders are included. Webpack takes modules with dependencies and generates static assets representing those modules.',
-    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2F17.svg?alt=media&token=b37fbac5-9cb5-4a97-874f-096f491bd4ee',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Fwebpack.svg?alt=media&token=04c9451c-2cfa-4084-8c47-c6cd86b85d4c',
     web: ['https://webpack.js.org/'],
   },
   {
