@@ -47,7 +47,7 @@ const skills = [
     stacks: ['frontend', 'backend'],
     description:
       'Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.',
-    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2F4.svg?alt=media&token=1614f884-6d32-47e0-a736-38b5176c7bde',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Fgit.svg?alt=media&token=6c9c3a4c-b2c7-4e88-9d5d-052e7d0ac030',
     web: ['https://git-scm.com/'],
   },
   {
@@ -149,7 +149,7 @@ const skills = [
     stacks: ['frontend'],
     description:
       'Less is a dynamic preprocessor style sheet language that can be compiled into Cascading Style Sheets and run on the client side or server side.',
-    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2F15.svg?alt=media&token=0b165668-f5d1-48bf-9aff-d14fb1c7fa7c',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Fless.svg?alt=media&token=eebbae10-35bf-464e-ac6b-38303d4864b6',
     web: ['https://lesscss.org/'],
   },
   {
@@ -329,7 +329,7 @@ const skills = [
     stacks: ['frontend'],
     description:
       'Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains HTML, CSS and JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.',
-    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2F35.svg?alt=media&token=bb3955aa-e5da-4282-b12e-3f2749822819',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Fbootstrap.svg?alt=media&token=050107d4-ab63-4eee-a222-24b98f1e378c',
     web: ['https://getbootstrap.com/'],
   },
   {
@@ -455,7 +455,7 @@ const skills = [
     stacks: ['frontend', 'backend'],
     description:
       'TypeScript is a programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript and adds optional static typing to the language. It is designed for the development of large applications and transpiles to JavaScript.',
-    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2F49.svg?alt=media&token=bbe94952-ff8c-4830-9676-23a666a7afdc',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Ftypescript.svg?alt=media&token=d4c4a509-f6f4-4278-937d-428c9672a562',
     web: ['https://www.typescriptlang.org/'],
   },
   {
@@ -644,7 +644,7 @@ const skills = [
     stacks: ['frontend', 'backend'],
     description:
       'WebAssembly (abbreviated Wasm) is a binary instruction format for a stack-based virtual machine. Wasm is designed as a portable compilation target for programming languages, enabling deployment on the web for client and server applications.',
-    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Fwebassembly.svg?alt=media&token=cfd9ffc3-ecc6-4633-915c-2698691b2046',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Fwebassembly.svg?alt=media&token=f1447473-87ac-494d-8b90-6a0815d35db6',
     web: ['https://webassembly.org/'],
   },
   {
@@ -653,7 +653,7 @@ const skills = [
     stacks: ['frontend'],
     description:
       'jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.',
-    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Fjquery.svg?alt=media&token=f1ba724b-9778-4426-8760-00599aa33a95',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Fjquery.svg?alt=media&token=de9d389f-8475-4656-b7a1-f95a232ed95f',
     web: ['https://jquery.com/'],
   },
   {
@@ -662,7 +662,7 @@ const skills = [
     stacks: ['backend'],
     description:
       'Rust is a multi-paradigm, general-purpose programming language designed for performance and safety, especially safe concurrency.',
-    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Frust.svg?alt=media&token=40cb59d8-164b-4bda-a048-dc6260353c20',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Frust.svg?alt=media&token=6557fca1-129d-4a6a-a247-90ee97aa4237',
     web: ['https://www.rust-lang.org/'],
   },
   {
@@ -680,7 +680,7 @@ const skills = [
     stacks: ['backend'],
     description:
       'Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.',
-    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Fjava.svg?alt=media&token=f8b7fc5c-e931-4b4e-b5b8-865e52c5b0e6',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Fjava.svg?alt=media&token=6e1658f8-c8ac-442b-932f-20873e8865df',
     web: ['https://www.java.com/'],
   },
   {
@@ -788,7 +788,7 @@ const skills = [
     stacks: ['backend'],
     description:
       'InfluxDB is an open-source time series database developed by the company InfluxData. It is written in the Go programming language for storage and retrieval of time series data in fields such as operations monitoring, application metrics, Internet of Things sensor data, and real-time analytics.',
-    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2FInfluxdb.svg?alt=media&token=b672f5a9-feb8-4406-a463-01462b4db911',
+    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2FInfluxdb.svg?alt=media&token=56ae94dd-5396-43ff-a30c-48f9b9688f3c',
     web: ['https://www.influxdata.com/'],
   },
   {
