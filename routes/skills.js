@@ -933,19 +933,10 @@ const skills = [
     description:
       'Grunt is a JavaScript task runner, a tool used to automatically perform frequent tasks such as minification, compilation, unit testing, and linting. It uses a command-line interface to run custom tasks defined in a file.',
     icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Fgrunt.svg?alt=media&token=242579ed-a248-4c27-b7f3-709aa206de21',
-    web: ['https://gulpjs.com/'],
+    web: ['https://gruntjs.com/'],
   },
   {
-    id: 101,
-    names: ['Grunt'],
-    stacks: ['frontend'],
-    description:
-      'Grunt is a JavaScript task runner, a tool used to automatically perform frequent tasks such as minification, compilation, unit testing, and linting. It uses a command-line interface to run custom tasks defined in a file.',
-    icon: 'https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Fgrunt.svg?alt=media&token=242579ed-a248-4c27-b7f3-709aa206de21',
-    web: ['https://gulpjs.com/'],
-  },
-  {
-    id: 102,
+    id: 103,
     names: ['Symfony'],
     stacks: ['backend'],
     description:
@@ -954,7 +945,7 @@ const skills = [
     web: ['https://symfony.com/'],
   },
   {
-    id: 103,
+    id: 104,
     names: ['Laravel'],
     stacks: ['backend'],
     description:
@@ -963,7 +954,7 @@ const skills = [
     web: ['https://laravel.com/'],
   },
   {
-    id: 104,
+    id: 105,
     names: ['Spring'],
     stacks: ['backend'],
     description:
@@ -972,7 +963,7 @@ const skills = [
     web: ['https://spring.io/'],
   },
   {
-    id: 105,
+    id: 106,
     names: ['Grails'],
     stacks: ['backend'],
     description:
@@ -981,7 +972,7 @@ const skills = [
     web: ['https://grails.org/'],
   },
   {
-    id: 106,
+    id: 107,
     names: ['.NET Framework'],
     stacks: ['backend'],
     description:
@@ -990,7 +981,7 @@ const skills = [
     web: ['https://dotnet.microsoft.com/en-us/'],
   },
   {
-    id: 107,
+    id: 108,
     names: ['Haskell'],
     stacks: ['backend'],
     description:
@@ -999,7 +990,7 @@ const skills = [
     web: ['https://www.haskell.org/'],
   },
   {
-    id: 108,
+    id: 109,
     names: ['Django'],
     stacks: ['backend'],
     description:
@@ -1008,7 +999,7 @@ const skills = [
     web: ['https://www.djangoproject.com/'],
   },
   {
-    id: 109,
+    id: 110,
     names: ['Ruby on Rails'],
     stacks: ['backend'],
     description:
@@ -1017,7 +1008,7 @@ const skills = [
     web: ['https://www.djangoproject.com/'],
   },
   {
-    id: 110,
+    id: 111,
     names: ['Express.js'],
     stacks: ['backend'],
     description:
@@ -1026,7 +1017,7 @@ const skills = [
     web: ['https://expressjs.com/'],
   },
   {
-    id: 111,
+    id: 112,
     names: ['Socket.IO'],
     stacks: ['backend'],
     description:
