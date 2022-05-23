@@ -7,7 +7,8 @@ router.get('/:name', (req, res) => {
 
   for (let skill of skillsDb.skills) {
     if (skill.name.toLowerCase() === name) {
-      return res.json(skill);
+      res.json(skill);
+      return;
     }
   }
 

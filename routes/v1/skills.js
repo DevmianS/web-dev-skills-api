@@ -11,13 +11,13 @@ router.get('/:id', (req, res) => {
 
   for (let skill of skillsDb.skills) {
     if (skill.id === id) {
-      return res.json(skill);
+      res.json(skill);
+      return;
     }
   }
   if (id > skillsDb.skills.length) {
     res.status(404).send(`Last skill has ${skillsDb.skills.length} as ID`);
-  }
-  res.status(404).send('Skill not found');
+  } else res.status(404).send('Skill not found');
 });
 
 module.exports = router;
