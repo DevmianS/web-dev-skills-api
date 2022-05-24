@@ -45,7 +45,7 @@
       "names": ["Git"],
       "stacks": ["frontend", "backend"],
       "description": "Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.",
-      "icon": "https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Ffirebase.svg?alt=media&token=a4ab42b7-de73-40c5-8144-0c6a179cd3e9",
+      "icon": "https://firebasestorage.googleapis.com/v0/b/web-dev-skills-api.appspot.com/o/all-skills%2Fgit.svg?alt=media&token=6c9c3a4c-b2c7-4e88-9d5d-052e7d0ac030",
       "web": ["https://git-scm.com/"]
     },
     {
