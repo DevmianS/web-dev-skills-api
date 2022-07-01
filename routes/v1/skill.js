@@ -6,6 +6,7 @@ router.get('/:name', (req, res) => {
   const name = req.params.name.toLowerCase();
 
   for (let skill of skillsDb.skills) {
+    // skill.icon = `https://cdn.jsdelivr.net/gh/devicons/devicon/icons/${skill.name}/${skill.name}-original.svg`;
     if (skill.name.toLowerCase() === name) {
       res.json(skill);
       return;
